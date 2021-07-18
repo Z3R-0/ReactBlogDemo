@@ -1,3 +1,7 @@
+# MERN Full Stack Blog Site Demo
+
+This is a tutorial I am following from [Lama Dev](https://www.youtube.com/channel/UCOxWrX5MIdXIeRNaXC3sqIg), I mostly just want to expand my toolset to include Full Stack development as I haven't done this in a few years and that was in PHP.
+
 # ---- Below is the default node readme ---
 
 ## Getting Started with Create React App

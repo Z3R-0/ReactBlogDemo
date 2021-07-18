@@ -9,7 +9,7 @@ export default function Sidebar() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, sed. Eos exercitationem repudiandae possimus fuga magnam unde, labore ea.</p>
             </div>
             <div className="sidebarItem">
-                <span className="sideBarTitle">CATEGORIES</span>
+                <span className="sidebarTitle">CATEGORIES</span>
                 <ul className="sidebarList">
                     <li className="sidebarListItem">Life</li>
                     <li className="sidebarListItem">Music</li>
@@ -20,7 +20,7 @@ export default function Sidebar() {
                 </ul>
             </div>
             <div className="sidebarItem">
-                <span className="sidebareTitle">FOLLOW US</span>
+                <span className="sidebarTitle">FOLLOW US</span>
                 <div className="sidebarSocial">
                     <i className="sidebarIcon fab fa-facebook-square"></i>
                     <i className="sidebarIcon fab fa-twitter-square"></i>

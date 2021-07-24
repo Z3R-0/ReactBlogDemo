@@ -4,11 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.5), 
-        rgba(255, 255, 255, 0.5)
-        ),
-        url("https://images.pexels.com/photos/267569/pexels-photo-267569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://images.pexels.com/photos/267569/pexels-photo-267569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
 }
 
@@ -22,12 +18,12 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(240,240,240,1);
+    background-color: rgb(240, 240, 240, 1);
     border-radius: 5px;
     font-family: 'Varela Round', sans-serif;
 }
 
-.registerForm > label {
+.registerForm>label {
     margin: 15px;
     margin-left: 25px;
 }
@@ -61,5 +57,14 @@
     padding: 10px;
     color: white;
     border-radius: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.errorSpan {
+    margin-top: 5px;
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #444;
     font-family: 'Varela Round', sans-serif;
 }

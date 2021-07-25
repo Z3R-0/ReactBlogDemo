@@ -51,6 +51,11 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 170, 170);
+}
+
 .loginRegisterButton {
     position: absolute;
     top: 60px;

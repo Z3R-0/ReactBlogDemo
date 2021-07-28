@@ -37,7 +37,7 @@
     font-size: 30px;
     border: none;
     padding: 20px;
-    widows: 70vw;
+    width: 70vw;
 }
 
 .writeInput:focus {

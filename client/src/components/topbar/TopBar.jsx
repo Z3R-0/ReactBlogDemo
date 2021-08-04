@@ -6,7 +6,7 @@ import "./topbar.css"
 export default function TopBar() {
     const { user, dispatch } = useContext(Context);
     const handleLogout = () => {
-        dispatch({ type:"LOGOUT" });
+        dispatch({ type: "LOGOUT" });
     };
 
     return (
@@ -29,11 +29,13 @@ export default function TopBar() {
             <div className="topRight">
                 {
                     user ? (
-                        <img 
-                        className="topImg"
-                            src={user.profilePic || "https://freepikpsd.com/media/2019/10/default-profile-picture-png-1-Transparent-Images.png"} 
-                            alt=""
-                        />
+                        <Link to="/settings">
+                            <img
+                                className="topImg"
+                                src={user.profilePic || "https://freepikpsd.com/media/2019/10/default-profile-picture-png-1-Transparent-Images.png"}
+                                alt=""
+                            />
+                        </Link>
                     ) : (
                         <ul className="topList">
                             <li className="topListItem">

@@ -38,7 +38,7 @@ export default function SinglePost() {
                 title,
                 desc
             });
-            window.location.reload();
+            setUpdateMode(false);
         } catch (err) { }
     }
 
